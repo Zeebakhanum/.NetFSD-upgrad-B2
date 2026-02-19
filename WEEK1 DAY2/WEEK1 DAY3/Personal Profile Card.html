@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Profile Card</title>
+
+    <style>
+       
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #e7ecf3;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200vh;
+        }
+
+        
+        .profile-card {
+            background-color: #f4f1fa;
+            width: 320px;
+            padding: 25px;              
+            border: 2px solid #4a90e2; 
+            border-radius: 12px;        
+            margin: 20px;               
+            text-align: center;         
+        }
+       
+        .profile-card h2 {
+            margin-bottom: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 1px;       
+        }
+
+      
+        .role {
+            font-size: 16px;
+            font-weight: 600;
+            color: #4a90e2;
+            margin-bottom: 15px;
+            text-decoration: underline;
+
+        }
+        .description {
+            font-size: 14px;
+            line-height: 1.6;           
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+    
+        .contact-btn {
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            border: none;
+            border-radius: 6px;
+            background-color: #4a90e2;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        
+        .contact-btn:hover {
+            background-color: #357abd;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="profile-card">
+        <h2>Zeeba Khanum</h2>
+        <div class="role">Frontend Developer</div>
+        <p class="description">
+            Passionate web developer skilled in HTML, CSS, and JavaScript.
+            I enjoy creating clean, responsive, and user-friendly web interfaces.
+        </p>
+        <button class="contact-btn">Contact Me</button>
+    </div>
+
+</body>
+</html>
