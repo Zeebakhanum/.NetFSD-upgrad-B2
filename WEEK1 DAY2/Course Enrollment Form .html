@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Enrollment Form</title>
+</head>
+<body>
+
+<header>
+    <h1>Course Enrollment</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a> |
+    <a href="#">Courses</a> |
+    <a href="#">Contact</a>
+</nav>
+
+<hr>
+
+<section>
+
+<form>
+
+    <!-- Name -->
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" required><br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" required><br><br>
+
+    <!-- Course with Datalist -->
+    <label for="course">Select Course:</label><br>
+    <input list="courses" id="course" required>
+    <datalist id="courses">
+        <option value="HTML">
+        <option value="CSS">
+        <option value="JavaScript">
+        <option value="Java">
+    </datalist><br><br>
+
+    <!-- Age -->
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" min="18" max="60" required><br><br>
+
+    <!-- Skill Level (Range + Meter) -->
+    <label for="skill">Skill Level (1-10):</label><br>
+    <input type="range" id="skill" min="1" max="10"><br><br>
+
+    <label>Skill Meter:</label><br>
+    <meter min="0" max="10" value="5">5 out of 10</meter><br><br>
+
+    <!-- Enrollment Progress -->
+    <label>Enrollment Completion:</label><br>
+    <progress value="70" max="100"></progress><br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Enroll">
+
+</form>
+
+</section>
+
+</body>
+</html>

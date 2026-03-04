@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Location Logger</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            background: white;
+            width: 400px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+        }
+
+        button {
+            padding: 8px 15px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .error {
+            color: red;
+        }
+
+        .history {
+            text-align: left;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body onload="loadHistory()">
+
+    <div class="container">
+        <h2>Location-Based Logger</h2>
+
+        <button onclick="getLocation()">Get My Location</button>
+
+        <p><strong>Latitude:</strong> <span id="lat">-</span></p>
+        <p><strong>Longitude:</strong> <span id="long">-</span></p>
+        <p id="errorMsg" class="error"></p>
+
+        <h3>Last 5 Locations</h3>
+        <div id="history" class="history"></div>
+    </div>
+
+    <script>
+        function getLocation() {
+
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    showPosition,
+                    showError,
+                    { timeout: 10000 }
+                );
+            } else {
+                document.getElementById("errorMsg").innerText =
+                    "Geolocation is not supported by this browser.";
+            }
+        }
+
+        // SUCCESS CALLBACK
+        function showPosition(position) {
+
+            var latitude = position.coords.latitude;
+            var longitude = position.coords.longitude;
+
+            document.getElementById("lat").innerText = latitude;
+            document.getElementById("long").innerText = longitude;
+            document.getElementById("errorMsg").innerText = "";
+
+            var locationEntry = {
+                lat: latitude,
+                long: longitude,
+                time: new Date().toLocaleString()
+            };
+
+            var history = localStorage.getItem("locationHistory");
+
+            if (history) {
+                history = JSON.parse(history);
+            } else {
+                history = [];
+            }
+
+            history.unshift(locationEntry); // add newest on top
+
+            if (history.length > 5) {
+                history = history.slice(0, 5); // keep only last 5
+            }
+
+            localStorage.setItem("locationHistory", JSON.stringify(history));
+
+            loadHistory();
+        }
+
+        // ERROR CALLBACK
+        function showError(error) {
+
+            switch (error.code) {
+                case error.PERMISSION_DENIED:
+                    document.getElementById("errorMsg").innerText =
+                        "Permission denied by user.";
+                    break;
+
+                case error.POSITION_UNAVAILABLE:
+                    document.getElementById("errorMsg").innerText =
+                        "Location information is unavailable.";
+                    break;
+
+                case error.TIMEOUT:
+                    document.getElementById("errorMsg").innerText =
+                        "The request to get location timed out.";
+                    break;
+
+                default:
+                    document.getElementById("errorMsg").innerText =
+                        "An unknown error occurred.";
+            }
+        }
+
+        function loadHistory() {
+
+            var history = localStorage.getItem("locationHistory");
+
+            if (history) {
+                history = JSON.parse(history);
+                var output = "";
+
+                for (var i = 0; i < history.length; i++) {
+                    output +=
+                        "Lat: " + history[i].lat +
+                        " | Long: " + history[i].long +
+                        " | Time: " + history[i].time + "<br><br>";
+                }
+
+                document.getElementById("history").innerHTML = output;
+            }
+        }
+    </script>
+
+</body>
+</html>

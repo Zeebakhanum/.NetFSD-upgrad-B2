@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Object-Based User Info Display</title>
+</head>
+<body>
+
+    <button onclick="handleButtonClick()">Show User Info</button>
+
+    <p id="name"></p>
+    <p id="age"></p>
+    <p id="city"></p>
+
+    <script>
+        // Function triggered by button click
+        function handleButtonClick() {
+
+            // Create user object
+            var user = {
+                name: "Rahul",
+                age: 25,
+                city: "Hyderabad"
+            };
+
+            // Pass object to function
+            displayUserInfo(user);
+        }
+
+        // Function that accepts object as parameter
+        function displayUserInfo(userObj) {
+
+            // Access properties using dot notation
+            document.getElementById("name").textContent = "Name: " + userObj.name;
+            document.getElementById("age").textContent = "Age: " + userObj.age;
+            document.getElementById("city").textContent = "City: " + userObj.city;
+        }
+    </script>
+
+</body>
+</html>

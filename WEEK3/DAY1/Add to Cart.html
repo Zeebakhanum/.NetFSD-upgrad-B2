@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Add to Cart</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body{
+            font-family: Arial;
+            margin:40px;
+        }
+
+        .cart{
+            font-size:20px;
+            margin-bottom:20px;
+            background:#007bff;
+            color:white;
+            padding:10px;
+            width:200px;
+            text-align:center;
+            border-radius:6px;
+        }
+
+        .product{
+            border:1px solid #ccc;
+            padding:15px;
+            margin:10px 0;
+            border-radius:6px;
+        }
+
+        button{
+            background:green;
+            color:white;
+            border:none;
+            padding:8px 12px;
+            cursor:pointer;
+            border-radius:4px;
+        }
+
+        button:disabled{
+            background:gray;
+            cursor:not-allowed;
+        }
+
+        .msg{
+            margin-left:10px;
+            color:green;
+            font-weight:bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Cart Counter -->
+<div class="cart">
+    🛒 Cart Items: <span id="cartCount">0</span>
+</div>
+
+<!-- Product List -->
+<div id="productList">
+
+    <div class="product">
+        <h4>Product 1 - Laptop</h4>
+        <button class="addCart">Add to Cart</button>
+        <span class="msg"></span>
+    </div>
+
+    <div class="product">
+        <h4>Product 2 - Mobile</h4>
+        <button class="addCart">Add to Cart</button>
+        <span class="msg"></span>
+    </div>
+
+    <div class="product">
+        <h4>Product 3 - Headphones</h4>
+        <button class="addCart">Add to Cart</button>
+        <span class="msg"></span>
+    </div>
+
+    <div class="product">
+        <h4>Product 4 - Smart Watch</h4>
+        <button class="addCart">Add to Cart</button>
+        <span class="msg"></span>
+    </div>
+
+</div>
+
+
+<script>
+$(document).ready(function(){
+
+    let count = 0;
+
+    // Event Delegation
+    $("#productList").on("click",".addCart",function(){
+
+        // Increase counter
+        count++;
+        $("#cartCount").text(count);
+
+        // Disable button
+        $(this).prop("disabled", true);
+
+        // Change button text
+        $(this).text("Added");
+
+        // Confirmation message
+        $(this).siblings(".msg")
+               .text("✔ Added to cart!");
+
+    });
+
+});
+</script>
+
+</body>
