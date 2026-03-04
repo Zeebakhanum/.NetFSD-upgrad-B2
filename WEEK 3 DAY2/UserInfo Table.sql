@@ -1,0 +1,8 @@
+USE EVENTDB
+
+CREATE TABLE UserInfo (
+    EmailId VARCHAR(100) PRIMARY KEY,
+    UserName VARCHAR(50) NOT NULL CHECK (LEN(UserName) BETWEEN 1 AND 50),
+    Role VARCHAR(20) NOT NULL CHECK (Role IN ('Admin', 'Participant')),
+    Password VARCHAR(20) NOT NULL CHECK (LEN(Password) BETWEEN 6 AND 20)
+);
