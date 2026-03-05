@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Feedback Form</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body{
+            font-family: Arial;
+            margin:40px;
+        }
+
+        form{
+            width:300px;
+            padding:20px;
+            border:1px solid #ccc;
+            border-radius:8px;
+        }
+
+        input, select, textarea{
+            width:100%;
+            margin:8px 0;
+            padding:8px;
+        }
+
+        button{
+            background:#007bff;
+            color:white;
+            border:none;
+            padding:10px;
+            cursor:pointer;
+        }
+
+        .message{
+            margin-top:15px;
+            font-weight:bold;
+        }
+
+        .error{
+            color:red;
+        }
+
+        .success{
+            color:green;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Student Feedback Form</h2>
+
+<form id="feedbackForm">
+
+    <input type="text" id="name" placeholder="Enter Name">
+
+    <input type="email" id="email" placeholder="Enter Email">
+
+    <select id="rating">
+        <option value="">Select Course Rating</option>
+        <option>Excellent</option>
+        <option>Good</option>
+        <option>Average</option>
+        <option>Poor</option>
+    </select>
+
+    <textarea id="comments" placeholder="Comments"></textarea>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+<div id="message"></div>
+
+<script>
+$(document).ready(function(){
+
+    $("#feedbackForm").submit(function(e){
+
+        e.preventDefault(); // stop page reload
+
+        var name = $("#name").val().trim();
+        var email = $("#email").val().trim();
+
+        // Validation
+        if(name === "" || email === ""){
+            $("#message")
+                .removeClass()
+                .addClass("message error")
+                .html("⚠ Please enter Name and Email.");
+            return;
+        }
+
+        // Success message
+        $("#message")
+            .removeClass()
+            .addClass("message success")
+            .html("✅ Feedback submitted successfully!");
+
+        // Clear form fields
+        $("#feedbackForm")[0].reset();
+
+    });
+
+});
+</script>
+
+</body>
+</html>

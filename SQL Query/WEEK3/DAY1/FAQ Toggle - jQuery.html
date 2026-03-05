@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FAQ Toggle - jQuery</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body{
+            font-family: Arial;
+            margin:40px;
+        }
+
+        .faq-container{
+            width:500px;
+        }
+
+        .question{
+            background:#f1f1f1;
+            padding:12px;
+            margin-top:8px;
+            cursor:pointer;
+            border-radius:5px;
+            font-weight:bold;
+        }
+
+        .answer{
+            display:none;
+            padding:10px;
+            border-left:3px solid #007bff;
+            background:#fafafa;
+        }
+
+        /* Highlight selected question */
+        .active{
+            background:#007bff;
+            color:white;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-container">
+
+    <div class="question">1. What is jQuery?</div>
+    <div class="answer">jQuery is a JavaScript library used for DOM manipulation.</div>
+
+    <div class="question">2. Why use jQuery?</div>
+    <div class="answer">It simplifies JavaScript coding and event handling.</div>
+
+    <div class="question">3. What is slideToggle()?</div>
+    <div class="answer">It shows or hides elements with a sliding animation.</div>
+
+    <div class="question">4. Is jQuery still used?</div>
+    <div class="answer">Yes, many legacy and enterprise projects still use jQuery.</div>
+
+    <div class="question">5. What is DOM manipulation?</div>
+    <div class="answer">Changing HTML content dynamically using scripts.</div>
+
+</div>
+
+<script>
+$(document).ready(function(){
+
+    $(".question").click(function(){
+
+        // Toggle clicked answer
+        $(this).next(".answer").slideToggle();
+
+        // Highlight selected question
+        $(this).toggleClass("active");
+
+    });
+
+});
+</script>
+
+</body>
+</html>

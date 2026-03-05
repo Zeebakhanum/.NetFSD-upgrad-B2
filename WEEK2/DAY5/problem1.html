@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Minimal Styling -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .hero {
+            min-height: 70vh;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- ✅ Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">MyPortfolio</a>
+
+        <!-- Mobile Toggle Button -->
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ✅ Hero Section -->
+<section class="hero d-flex align-items-center text-center">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+                <h1 class="display-5 fw-bold">Hi, I'm a Web Developer 👋</h1>
+                <p class="lead text-muted">
+                    Fresher passionate about building responsive and modern web applications.
+                </p>
+                <button class="btn btn-primary btn-lg mt-3">
+                    View My Work
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ✅ Skills Section -->
+<section id="skills" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">My Skills</h2>
+
+        <div class="row g-4">
+
+            <!-- Skill Card -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100 text-center shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML</h5>
+                        <p class="card-text">
+                            Creating structured and semantic web pages.
+                        </p>
+                        <button class="btn btn-outline-primary btn-sm">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill Card -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100 text-center shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">CSS</h5>
+                        <p class="card-text">
+                            Responsive layouts using Flexbox and Bootstrap.
+                        </p>
+                        <button class="btn btn-outline-primary btn-sm">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill Card -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100 text-center shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">
+                            Adding interactivity and dynamic behavior.
+                        </p>
+                        <button class="btn btn-outline-primary btn-sm">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ✅ Contact Section -->
+<section id="contact" class="bg-dark text-white py-5">
+    <div class="container text-center">
+        <h2>Contact Me</h2>
+        <p class="mb-4">Let's work together!</p>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <input type="text" class="form-control mb-3" placeholder="Your Name">
+                <input type="email" class="form-control mb-3" placeholder="Your Email">
+                <textarea class="form-control mb-3" rows="3" placeholder="Message"></textarea>
+                <button class="btn btn-primary w-100">Send Message</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ✅ Footer -->
+<footer class="text-center py-3 bg-light">
+    <p class="mb-0">© 2026 My Portfolio | Built with Bootstrap 5</p>
+</footer>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
