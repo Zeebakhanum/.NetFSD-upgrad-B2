@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LinqCodeTemplate
+{
+    internal class Program8
+    {
+        static void Main()
+        {
+            Product product = new Product();
+            var products = product.GetProducts();
+
+            var result = products
+                         .GroupBy(p => p.ProMrp);
+
+            foreach (var group in result)
+            {
+                Console.WriteLine($"\nMRP: {group.Key}");
+
+                foreach (var item in group)
+                {
+                    Console.WriteLine($"{item.ProCode}\t{item.ProName}");
+                }
+            }
+
+            Console.ReadLine();
+        }
+    }
+}
