@@ -1,0 +1,161 @@
+/* ==========================
+    GLOBAL THEME
+========================== */
+body {
+    font-family: Arial, sans-serif;
+    background: white; /* white background for all pages */
+    margin: 0;
+    min-height: 100vh; /* ensures full-page coverage */
+}
+
+/* ==========================
+    NAVBAR
+========================== */
+.navbar {
+    background: linear-gradient(to right, #1e94dc, #4facfe) !important;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ffe !important;
+}
+
+/* ==========================
+    CARDS
+========================== */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    background: linear-gradient(to bottom, #f0faff, #ffffff); /* soft card gradient */
+}
+
+.card:hover {
+    transform: translateY(-6px) scale(1.02);
+}
+
+/* ==========================
+    BUTTONS
+========================== */
+.btn-primary {
+    background: linear-gradient(to right, #1e94dc, #4facfe);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #0f7ac0, #2f9df5);
+    box-shadow: 0 4px 12px rgba(30,148,220,0.4);
+}
+
+.btn-success, .btn-danger {
+    border-radius: 8px;
+}
+
+/* ==========================
+    HEADINGS
+========================== */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-weight: bold;
+    color: #1c5eca; /* visible dark blue on white */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* ==========================
+    FORMS
+========================== */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+/* ==========================
+    INPUTS & SELECTS
+========================== */
+input, select, textarea {
+    border-radius: 8px !important;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    width: 100%;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    box-shadow: 0px 0px 5px #1e94dc;
+    outline: none;
+}
+
+/* ==========================
+    FADE-IN ANIMATION
+========================== */
+.fade-in {
+    animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+    from {opacity:0; transform: translateY(10px);}
+    to {opacity:1; transform: translateY(0);}
+}
+
+/* ==========================
+    ALERT BOX
+========================== */
+.alert-custom {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #1e94dc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px gray;
+    z-index: 1000;
+    animation: fadeIn 0.5s ease-in;
+}
+
+/* ==========================
+    TABLES (if used for events)
+========================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: linear-gradient(to right, #1e94dc, #4facfe);
+    color: white;
+}
+/* Home page heading fix */
+#homeEventsHeading {
+    color: #1c5eca; /* dark blue for visibility */
+    font-size: 28px; /* bigger font */
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0 20px 0; /* spacing above and below */
+}
