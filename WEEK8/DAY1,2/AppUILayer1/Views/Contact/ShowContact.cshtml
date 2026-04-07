@@ -1,0 +1,26 @@
+﻿@model IEnumerable<ContactInfo>
+
+<h2>Contacts</h2>
+
+<a href="/contact/add">Add Contact</a>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Company</th>
+        <th>Department</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.FirstName</td>
+            <td>@item.Company?.CompanyName</td>
+            <td>@item.Department?.DepartmentName</td>
+            <td>
+                <a href="/contact/delete/@item.ContactId">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

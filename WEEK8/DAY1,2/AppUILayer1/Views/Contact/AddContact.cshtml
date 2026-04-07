@@ -1,0 +1,14 @@
+﻿@model ContactInfo
+
+<form method="post">
+    First Name: <input asp-for="FirstName" /><br />
+    Last Name: <input asp-for="LastName" /><br />
+    
+    Company:
+    <select asp-for="CompanyId" asp-items="ViewBag.Companies"></select><br />
+
+    Department:
+    <select asp-for="DepartmentId" asp-items="ViewBag.Departments"></select><br />
+
+    <button type="submit">Save</button>
+</form>
