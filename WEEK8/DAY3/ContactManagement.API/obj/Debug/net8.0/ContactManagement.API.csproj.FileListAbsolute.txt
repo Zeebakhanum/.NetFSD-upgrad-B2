@@ -1,0 +1,73 @@
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\appsettings.Development.json
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\appsettings.json
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\ContactManagement.API.staticwebassets.endpoints.json
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\ContactManagement.API.exe
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\ContactManagement.API.deps.json
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\ContactManagement.API.runtimeconfig.json
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\ContactManagement.API.dll
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\ContactManagement.API.pdb
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.AssemblyInfoInputs.cache
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.AssemblyInfo.cs
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.csproj.CoreCompileInputs.cache
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.MvcApplicationPartsAssemblyInfo.cache
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.sourcelink.json
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\scopedcss\bundle\ContactManagement.API.styles.css
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\staticwebassets.build.json
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\staticwebassets.development.json
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\swae.build.ex.cache
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.dll
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\refint\ContactManagement.API.dll
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.pdb
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.genruntimeconfig.cache
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ref\ContactManagement.API.dll
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.csproj.AssemblyReference.cache
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.MvcApplicationPartsAssemblyInfo.cs
+E:\UpGrad Assessment\Week 8\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactM.89235161.Up2Date
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\appsettings.json
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\ContactManagement.API.staticwebassets.endpoints.json
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\ContactManagement.API.exe
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\ContactManagement.API.deps.json
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\ContactManagement.API.runtimeconfig.json
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\ContactManagement.API.dll
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\ContactManagement.API.pdb
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.csproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.AssemblyInfoInputs.cache
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.AssemblyInfo.cs
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\scopedcss\bundle\ContactManagement.API.styles.css
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactM.89235161.Up2Date
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.dll
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\refint\ContactManagement.API.dll
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.pdb
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ContactManagement.API.genruntimeconfig.cache
+C:\Users\ASUS\Downloads\Day 3\Day 3\ContactManagement.API\ContactManagement.API\obj\Debug\net8.0\ref\ContactManagement.API.dll
