@@ -1,0 +1,14 @@
+D:\upgradall\upgradall\upgrad\repos\repos\Week10\Week10Day1\ContactManagementCodeAnalysis\ContactManagementCodeAnalysis\bin\Debug\net8.0\ContactManagementCodeAnalysis.exe
+D:\upgradall\upgradall\upgrad\repos\repos\Week10\Week10Day1\ContactManagementCodeAnalysis\ContactManagementCodeAnalysis\bin\Debug\net8.0\ContactManagementCodeAnalysis.deps.json
+D:\upgradall\upgradall\upgrad\repos\repos\Week10\Week10Day1\ContactManagementCodeAnalysis\ContactManagementCodeAnalysis\bin\Debug\net8.0\ContactManagementCodeAnalysis.runtimeconfig.json
+D:\upgradall\upgradall\upgrad\repos\repos\Week10\Week10Day1\ContactManagementCodeAnalysis\ContactManagementCodeAnalysis\bin\Debug\net8.0\ContactManagementCodeAnalysis.dll
+D:\upgradall\upgradall\upgrad\repos\repos\Week10\Week10Day1\ContactManagementCodeAnalysis\ContactManagementCodeAnalysis\bin\Debug\net8.0\ContactManagementCodeAnalysis.pdb
+D:\upgradall\upgradall\upgrad\repos\repos\Week10\Week10Day1\ContactManagementCodeAnalysis\ContactManagementCodeAnalysis\obj\Debug\net8.0\ContactManagementCodeAnalysis.GeneratedMSBuildEditorConfig.editorconfig
+D:\upgradall\upgradall\upgrad\repos\repos\Week10\Week10Day1\ContactManagementCodeAnalysis\ContactManagementCodeAnalysis\obj\Debug\net8.0\ContactManagementCodeAnalysis.AssemblyInfoInputs.cache
+D:\upgradall\upgradall\upgrad\repos\repos\Week10\Week10Day1\ContactManagementCodeAnalysis\ContactManagementCodeAnalysis\obj\Debug\net8.0\ContactManagementCodeAnalysis.AssemblyInfo.cs
+D:\upgradall\upgradall\upgrad\repos\repos\Week10\Week10Day1\ContactManagementCodeAnalysis\ContactManagementCodeAnalysis\obj\Debug\net8.0\ContactManagementCodeAnalysis.csproj.CoreCompileInputs.cache
+D:\upgradall\upgradall\upgrad\repos\repos\Week10\Week10Day1\ContactManagementCodeAnalysis\ContactManagementCodeAnalysis\obj\Debug\net8.0\ContactManagementCodeAnalysis.dll
+D:\upgradall\upgradall\upgrad\repos\repos\Week10\Week10Day1\ContactManagementCodeAnalysis\ContactManagementCodeAnalysis\obj\Debug\net8.0\refint\ContactManagementCodeAnalysis.dll
+D:\upgradall\upgradall\upgrad\repos\repos\Week10\Week10Day1\ContactManagementCodeAnalysis\ContactManagementCodeAnalysis\obj\Debug\net8.0\ContactManagementCodeAnalysis.pdb
+D:\upgradall\upgradall\upgrad\repos\repos\Week10\Week10Day1\ContactManagementCodeAnalysis\ContactManagementCodeAnalysis\obj\Debug\net8.0\ContactManagementCodeAnalysis.genruntimeconfig.cache
+D:\upgradall\upgradall\upgrad\repos\repos\Week10\Week10Day1\ContactManagementCodeAnalysis\ContactManagementCodeAnalysis\obj\Debug\net8.0\ref\ContactManagementCodeAnalysis.dll

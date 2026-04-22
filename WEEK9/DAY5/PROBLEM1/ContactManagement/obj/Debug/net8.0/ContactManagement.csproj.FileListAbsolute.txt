@@ -1,0 +1,11 @@
+C:\Users\ASUS\source\repos\ContactManagementSolution\ContactManagement\bin\Debug\net8.0\ContactManagement.deps.json
+C:\Users\ASUS\source\repos\ContactManagementSolution\ContactManagement\bin\Debug\net8.0\ContactManagement.dll
+C:\Users\ASUS\source\repos\ContactManagementSolution\ContactManagement\bin\Debug\net8.0\ContactManagement.pdb
+C:\Users\ASUS\source\repos\ContactManagementSolution\ContactManagement\obj\Debug\net8.0\ContactManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\ContactManagementSolution\ContactManagement\obj\Debug\net8.0\ContactManagement.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\ContactManagementSolution\ContactManagement\obj\Debug\net8.0\ContactManagement.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\ContactManagementSolution\ContactManagement\obj\Debug\net8.0\ContactManagement.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\ContactManagementSolution\ContactManagement\obj\Debug\net8.0\ContactManagement.dll
+C:\Users\ASUS\source\repos\ContactManagementSolution\ContactManagement\obj\Debug\net8.0\refint\ContactManagement.dll
+C:\Users\ASUS\source\repos\ContactManagementSolution\ContactManagement\obj\Debug\net8.0\ContactManagement.pdb
+C:\Users\ASUS\source\repos\ContactManagementSolution\ContactManagement\obj\Debug\net8.0\ref\ContactManagement.dll

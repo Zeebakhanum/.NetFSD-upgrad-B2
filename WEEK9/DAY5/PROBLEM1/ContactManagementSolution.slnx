@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ContactManagement.Tests/ContactManagement.Tests.csproj" Id="2c674d94-f7f9-4d44-bb66-92224f887268" />
+  <Project Path="ContactManagement/ContactManagement.csproj" Id="65175ae5-3d5d-4af5-b43d-5fa73a10a52e" />
+</Solution>

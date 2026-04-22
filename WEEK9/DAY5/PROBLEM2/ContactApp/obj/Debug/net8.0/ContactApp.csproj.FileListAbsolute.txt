@@ -1,0 +1,11 @@
+C:\Users\ASUS\source\repos\ContactApp\ContactApp\bin\Debug\net8.0\ContactApp.deps.json
+C:\Users\ASUS\source\repos\ContactApp\ContactApp\bin\Debug\net8.0\ContactApp.dll
+C:\Users\ASUS\source\repos\ContactApp\ContactApp\bin\Debug\net8.0\ContactApp.pdb
+C:\Users\ASUS\source\repos\ContactApp\ContactApp\obj\Debug\net8.0\ContactApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\ContactApp\ContactApp\obj\Debug\net8.0\ContactApp.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\ContactApp\ContactApp\obj\Debug\net8.0\ContactApp.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\ContactApp\ContactApp\obj\Debug\net8.0\ContactApp.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\ContactApp\ContactApp\obj\Debug\net8.0\ContactApp.dll
+C:\Users\ASUS\source\repos\ContactApp\ContactApp\obj\Debug\net8.0\refint\ContactApp.dll
+C:\Users\ASUS\source\repos\ContactApp\ContactApp\obj\Debug\net8.0\ContactApp.pdb
+C:\Users\ASUS\source\repos\ContactApp\ContactApp\obj\Debug\net8.0\ref\ContactApp.dll
